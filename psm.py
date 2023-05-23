@@ -16,7 +16,7 @@ st.set_page_config(page_title="Probability Prediction of Hypoxemia in Gastrointe
 
 plt.style.use('default')
 
-df=pd.read_csv('traindata1.csv',encoding='utf8')
+df=pd.read_csv('traindata1(1).csv',encoding='utf8')
 
 trainy=df.Hypoxemia
 trainx=df.drop('Hypoxemia',axis=1)

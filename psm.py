@@ -1,9 +1,9 @@
 import streamlit as st
 
-import numpy as np
-from numpy import array
-from numpy import argmax
-from numpy import genfromtxt
+#import numpy as np
+#from numpy import array
+#from numpy import argmax
+#from numpy import genfromtxt
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
